@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <meta charset = "utf-8" />
+    <title>PROGRAMAÇÃO ESTRUTURADA </title>
+  </head>
+  <body>
+    <h1> Entrada do programa</h1>
+    N1: <input type = "number" id="a" value=""><br />
+    <button onclick = 'executarExercicio()'>OK</button>
+    <p id="resultado"></p>
+    <script>
+    function executarExercicio(){
+      var a = Number(document.getElementById('a').value);
+      document.getElementById('resultado').innerHTML = a;
+    </script>
+  </body>
+</html>
